@@ -1,0 +1,1 @@
+web: java -jar target/kanban20210923/target/kanban-0.0.1-SNAPSHOT.jar

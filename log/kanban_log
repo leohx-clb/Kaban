@@ -1344,3 +1344,49 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2021-11-26 14:45:42.060  WARN 9044 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
 2021-11-26 14:45:42.972  WARN 9044 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
 2021-11-26 14:45:43.952  WARN 9044 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-11-26 14:45:44.731  WARN 9044 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-11-26 15:02:03.795  INFO 9044 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:02:03.802  INFO 9044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 15:02:03.823  INFO 9044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 15:02:04.075  INFO 9044 --- [restartedMain] f.h.fx.kanban.KanbanApplication          : Starting KanbanApplication using Java 16.0.1 on DESKTOP-9045M0N with PID 9044 (C:\Users\HB\eclipse-workspace\kanban20210923\target\classes started by HB in C:\Users\HB\eclipse-workspace\kanban20210923)
+2021-11-26 15:02:04.075  INFO 9044 --- [restartedMain] f.h.fx.kanban.KanbanApplication          : No active profile set, falling back to default profiles: default
+2021-11-26 15:02:04.384  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 15:02:04.416  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2021-11-26 15:02:04.575  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-26 15:02:04.577  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 15:02:04.577  INFO 9044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-26 15:02:04.716  INFO 9044 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-11-26 15:02:04.721  INFO 9044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 15:02:04.722  INFO 9044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 643 ms
+2021-11-26 15:02:04.747  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-26 15:02:04.753  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-26 15:02:04.753  INFO 9044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kanban?useSSL=false&serverTimezone=UTC'
+2021-11-26 15:02:04.820  INFO 9044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 15:02:04.827  INFO 9044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-26 15:02:05.064  INFO 9044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 15:02:05.064  INFO 9044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:02:05.237  INFO 9044 --- [restartedMain] f.h.f.k.controller.KanbanController      : Invocation de la méthode init()
+2021-11-26 15:02:05.310  WARN 9044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 15:02:05.365  INFO 9044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-26 15:02:05.422  INFO 9044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-26 15:02:05.432  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-26 15:02:05.434  INFO 9044 --- [restartedMain] f.h.fx.kanban.KanbanApplication          : Started KanbanApplication in 1.471 seconds (JVM running for 1072.812)
+2021-11-26 15:02:05.435  INFO 9044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-26 15:02:06.864  INFO 9044 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:02:06.866  INFO 9044 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-26 15:02:06.868  INFO 9044 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-26 15:02:06.964  INFO 9044 --- [restartedMain] f.h.fx.kanban.KanbanApplication          : Starting KanbanApplication using Java 16.0.1 on DESKTOP-9045M0N with PID 9044 (C:\Users\HB\eclipse-workspace\kanban20210923\target\classes started by HB in C:\Users\HB\eclipse-workspace\kanban20210923)
+2021-11-26 15:02:06.965  INFO 9044 --- [restartedMain] f.h.fx.kanban.KanbanApplication          : No active profile set, falling back to default profiles: default
+2021-11-26 15:02:07.174  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 15:02:07.201  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2021-11-26 15:02:07.316  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-26 15:02:07.319  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 15:02:07.319  INFO 9044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-26 15:02:07.411  INFO 9044 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-11-26 15:02:07.415  INFO 9044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 15:02:07.415  INFO 9044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 447 ms
+2021-11-26 15:02:07.433  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-11-26 15:02:07.438  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-11-26 15:02:07.438  INFO 9044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kanban?useSSL=false&serverTimezone=UTC'
+2021-11-26 15:02:07.472  INFO 9044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 15:02:07.476  INFO 9044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
